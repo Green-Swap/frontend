@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
+import HomeComponent from "../components/HomeComponent.vue";
+import Header from "../components/HeaderComponent.vue";
+import Footer from "../components/FooterComponent.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div id="app">
+    <Header />
+    <HomeComponent />
+    <Footer />
+  </div>
 </template>

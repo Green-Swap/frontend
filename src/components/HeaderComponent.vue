@@ -29,7 +29,7 @@ header {
 }
 .navBar {
   grid-column: 3 / 4;
-  grid-row: 1 / 2;
+  grid-row: 2 / 2;
 }
 
 .navBar-items {

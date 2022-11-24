@@ -1,0 +1,19 @@
+
+
+main {
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+article {
+}
+
+article h1 {
+  font-family: 'Helvetica', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}

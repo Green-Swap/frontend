@@ -1,24 +1,18 @@
-<div align="center" id="top">
-  <img src="./.github/app.gif" alt="Greenswap" />
-
-  &#xa0;
-</div>
-
-<h1 align="center">Greenswap</h1>
+<h1 align="center">Greenswap - Frontend</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Green-Swap/frontend?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Green-Swap/frontend?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Green-Swap/frontend?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Green-Swap/frontend?color=56BEB8">
 </p>
 
 <!-- Status -->
 
-<h4 align="center"> 
+<h4 align="center">
 	🚧  Greenswap Frontend 🚀 Under construction...  🚧
 </h4> 
 
@@ -54,11 +48,11 @@ The following tools were used in this project:
 
 - [VueJs](https://vuejs.org/)
 - [Docker](https://www.docker.com/)
-- [Github](https://www.typescriptlang.org/)
+- [Github](https://github.com/Green-Swap/frontend)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Docker](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Docker](https://www.docker.com/) installed.
 
 ## :checkered_flag: Starting ##
 

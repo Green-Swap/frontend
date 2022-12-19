@@ -1,35 +1,87 @@
-# GreenSwap
+<div align="center" id="top">
+  <img src="./.github/app.gif" alt="Greenswap" />
 
-This template should help get you started developing with Vue 3 in Vite.
+  &#xa0;
+</div>
 
-## Recommended IDE Setup
+<h1 align="center">Greenswap</h1>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
 
-## Customize configuration
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
 
-## Project Setup
+  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/greenswap?color=56BEB8">
+</p>
 
-```sh
-npm install
+<!-- Status -->
+
+<h4 align="center"> 
+	🚧  Greenswap Frontend 🚀 Under construction...  🚧
+</h4> 
+
+<hr>
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="#author" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+GreenSwap est une application d'échange de plantes entre particulier, Le but est de permettre aux utilisateurs de mettre en vente leurs plante et de les troc avec d'autre utilisateurs.
+
+## :sparkles: Features ##
+
+:heavy_check_mark: Reconnaissance de la plante;\
+:heavy_check_mark: Troc entre utilisateurs;\
+:heavy_check_mark: Application responsive;\
+:heavy_check_mark: Gestion de calendrier;\
+:heavy_check_mark: Gestion des notifications;\
+:heavy_check_mark: Geolocalisation des utilisateurs;\
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [VueJs](https://vuejs.org/)
+- [Docker](https://www.docker.com/)
+- [Github](https://www.typescriptlang.org/)
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Docker](https://nodejs.org/en/) installed.
+
+## :checkered_flag: Starting ##
+
+```bash
+# Create a folder for project
+$ mkdir greenswap
+
+# Clone this project and backend
+$ git clone https://github.com/Green-Swap/frontend.git
+
+# Use the docker-compose
+$ docker-compose up
+
+# The frontend will initialize in the <http://localhost:7173>
 ```
 
-### Compile and Hot-Reload for Development
+## :memo: License ##
 
-```sh
-npm run dev
-```
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+Made with :heart: by <a href="https://github.com/Green-Swap/" target="_blank">Philippe VILARINHO - Camille TOURON - Anthony DENIN - Maceo BASSE - Nathanael JULIANS</a>
 
-### Lint with [ESLint](https://eslint.org/)
+&#xa0;
 
-```sh
-npm run lint
-```
+<a href="#top">Back to top</a>

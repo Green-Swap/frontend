@@ -5,7 +5,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     ports:
-      - "8081:8000"
+      - "5173:5173"
     container_name: frontend
     volumes:
       - ./frontend:/usr/src/app/frontend

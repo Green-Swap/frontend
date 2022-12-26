@@ -1,3 +1,5 @@
+                                        /* Mise en place du template */
+
 main {
   width: 100%;
 }
@@ -9,25 +11,18 @@ section {
   grid-template-columns: repeat(12, 1FR);
   grid-template-rows: repeat(12, 8.33%);
 }
-
+                                                /* Partie aside */
 aside {
   width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column: 1/6;
+  grid-row: 1/10;
 }
 
-article {
-  width: 100%;
-  grid-column-start: 8;
-  grid-column-end: 13;
+aside img {
+  height: 100%;
 }
 
-.first_article {
-  grid-row: 3/7;
-  display: flex;
-  flex-direction: row;
-}
-
+                                        /* Partie de la barre latéral à droite */
 .social_network{
   grid-column: 12/13;
   grid-row: 2/7;
@@ -35,6 +30,10 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.social_network a {
+    color: black;
 }
 
 .social_network span {
@@ -45,7 +44,7 @@ article {
   height: 2px;
   background-color: black;
 }
-
+                                      /* Partie bloc de droite */
 .first_article h1{
   font-size: 6em;
 }
@@ -66,34 +65,19 @@ article {
 
 
 
-.second_article {
-  grid-row: 8/10;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
-.second_article button {
+
+/*.second_article button {
+  margin: auto;
   text-align: center;
   background-color: white;
   width: 50px;
   height: 50px;
   border-radius:50%;
   border:#666 1px solid;
-}
+}*/
 
-.right_block {
-  width: 70%;
-  height: 60%;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
 
-.right_block div {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 
 

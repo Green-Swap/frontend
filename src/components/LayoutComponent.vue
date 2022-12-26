@@ -17,11 +17,11 @@
       </article>
       <div class="social_network">
         <span></span>
-        <p>PV</p>
-        <p>AD</p>
-        <p>MB</p>
-        <p>CT</p>
-        <p>NJ</p>
+        <p><a href="https://github.com/tifiloutube">PV</a></p>
+        <p><a href="https://github.com/MrBartou">AD</a></p>
+        <p><a href="https://github.com/MaceoBasse">MB</a></p>
+        <p><a href="https://github.com/CamilleTouron">CT</a></p>
+        <p><a href="https://github.com/Nathahh">NJ</a></p>
         <span></span>
       </div>
       <article class="second_article">
@@ -34,7 +34,7 @@
           </button>
         </div>
         <div class="right_block">
-          <div>
+          <div class="right_block-text">
             <h3>THE NEW LOOKBOOK</h3>
             <p>
               Daily Inspiration and Beauty <br> Advices.

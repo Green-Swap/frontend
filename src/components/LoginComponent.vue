@@ -13,7 +13,7 @@
             <input id="password" type="password" placeholder="Password" />
           </div>
           <div class="form-field">
-            <input type="submit" class="btn btn-signin" value="Submit" />
+            <input type="submit" class="btn btn-signin" value="Connexion" />
           </div>
         </form>
       </div>
@@ -61,6 +61,8 @@ input:focus {
   text-align: center;
   font-weight: 700;
   position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
 }
 .sign-in-section h1:after {
   position: absolute;

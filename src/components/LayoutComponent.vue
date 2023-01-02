@@ -24,7 +24,7 @@
         <p><a href="https://github.com/Nathahh">NJ</a></p>
         <span></span>
       </div>
-      <article class="second_article">
+      <article class="second_article-left">
         <div class="left_block">
           <button>
             <img :src="require('../assets/images/ctrl-left.svg')" alt="flèche vers la gauche">
@@ -33,12 +33,12 @@
             <img :src="require('../assets/images/ctrl-right.svg')" alt="flèche vers la droite" />
           </button>
         </div>
+      </article>
+      <article class="second_article-right">
         <div class="right_block">
           <div class="right_block-text">
             <h3>THE NEW LOOKBOOK</h3>
-            <p>
-              Daily Inspiration and Beauty <br> Advices.
-            </p>
+            <p> Daily Inspiration and Beauty Advices. </p>
           </div>
         </div>
       </article>

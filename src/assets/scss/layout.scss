@@ -54,7 +54,6 @@ aside img {
 }
 
 .first_article button {
-  display: block;
   height: 50px;
   width: 30%;
   background-color: white;
@@ -63,11 +62,36 @@ aside img {
   border: 1px solid #C2C2C2;
 }
 
+.first_article {
+  grid-column: 7/13;
+  grid-row: 2/5;
+}
 
+.second_article-left {
+  grid-column: 7/9;
+  grid-row: 9/9;
+}
 
+.second_article-right {
+  grid-column: 10/13;
+  grid-row: 8/10;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
 
+.right_block-text {
+  margin-top: 50px;
+}
 
-/*.second_article button {
+.left_block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.left_block button {
   margin: auto;
   text-align: center;
   background-color: white;
@@ -75,7 +99,7 @@ aside img {
   height: 50px;
   border-radius:50%;
   border:#666 1px solid;
-}*/
+}
 
 
 
